@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div className="h-[600px] bg-gray-200 overflow-hidden">
       <div className="content">
-        <div className="flex flex-col md:flex-row md:justify-between items-center gap-x-5">
+        <div className="flex flex-col lg:flex-row md:justify-between items-center gap-x-5">
           <div className="flex-1">
             <h3 className="mb-3 text-[#F15A2A] font-extrabold">New Arrival</h3>
             <h1 className="text-lg md:text-5xl font-bold">

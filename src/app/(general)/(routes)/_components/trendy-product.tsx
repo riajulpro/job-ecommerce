@@ -19,7 +19,7 @@ const TrendyProduct = async () => {
   return (
     <div className="my-10">
       <h1 className="title text-center my-5">Super Trendy Products</h1>
-      <div className="content grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 my-5">
+      <div className="content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-5">
         {products.map((product) => (
           <ProductCard
             key={product.id}

@@ -38,7 +38,7 @@ export default function ProductCard({
   };
 
   return (
-    <Card className="md:w-64 overflow-hidden transition-all duration-300 hover:shadow-lg group">
+    <Card className="lg:w-64 overflow-hidden transition-all duration-300 hover:shadow-lg group">
       <div className="relative">
         <Image
           src={imageUrl}
